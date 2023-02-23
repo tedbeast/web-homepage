@@ -1,0 +1,37 @@
+<!--html documents first define the type of document they are.-->
+<!DOCTYPE html>
+<html lang="en">
+<!--the head of an html document contains various metadata for the site, in this case the character encodings,
+title, and styling information.-->
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage instructions</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<!--the body of an html document contains the actual structure of the site.-->
+<body>
+<!--h tags are block elements for heads.-->
+<h1>Making a beginning "homepage"</h1>
+<!--a p (paragraph) tag is a block element for general text.-->
+<p>To start, web development largely involves the creation and modifications of elements of a web site.
+<!--ol initiates an unordered list. ol initiates an ordered list.-->
+<ul>
+    <!--li represents a list element. they have been provided with a 'class' attribute, which allows us to easily select them later
+    (in this case, they get selected in the styling file styling.css to make them italic)-->
+    <li class="info">HTML is necessary for defining the general structure of a site.</li>
+    <li class="info">JavaScript is the most common way to introduce interactivity & general programming capability to websites.</li>
+    <li class="info">CSS is the most common way to style websites and to introduce user-friendliness across any type of device. While it is useful, styling will be considered genrally ancillary to our goals in web development and will be mostly ignored.</li>
+</ul>
+<!--the 'id' attribute allows for CSS and Javascript files to easily select this element. In this case, it is selected
+by the styling file to make it bold.)-->
+<p id = "objective">Our real objective is to understand the flow of web development enough to prepare you to work with advanced JavaScript frameworks.
+The most natural place to start is going to be to write some of your own elements: check out homepage.html, create the elements defined there, and open the html files in your web browser to see your progress.</p>
+<!--img is an inline element for images.-->
+<img src="how-to-open-file-location.PNG">
+<img src="opening-in-browser.PNG">
+<!--br is a line break.-->
+<br>
+<!--a is an inline element for links.-->
+<a href = "homepage.html">click here to proceed to your "homepage" in the browser!</a>
+</body>
+</html>
